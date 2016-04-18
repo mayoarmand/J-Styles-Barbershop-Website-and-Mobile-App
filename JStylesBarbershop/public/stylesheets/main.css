@@ -1,0 +1,147 @@
+	body
+    		{
+    		     background-color: "#D0D3D4"
+    		}
+    	
+    	div.float {
+    position: relative;
+    
+}
+
+floatVideo {
+    0% {
+        top:500px;
+    }
+    100% {
+        top: 100px;
+    }
+}
+     
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      top: 0;
+      left: 0;
+      width: auto;
+      height:auto;
+      min-height:500px;
+      max-height:500px;
+      margin: auto;
+  }
+ 
+ .boxed {
+ 	border: 1px solid green;
+ }
+ 
+ 
+ section {
+    font-family: 'themify';
+    font-weight: 300;
+}
+ 
+ 
+
+
+/* Default Animation Styles */
+#animation {
+ 
+  border-radius: 100%;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  margin-right: 150px;
+  margin-left: 80px;
+  position: relative;
+}
+
+.activ {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}	
+
+.wrap {
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: large;
+  border:5px solid white;
+  margin: auto;
+  position: relative;
+}
+
+.hr
+{
+	display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+
+
+
+
+/* section#one { background-color: $blue; } */
+/* section#scene {  */
+/*   background-color:  darken($blue, 10%);   */
+/*   transition: all 0.4s linear; */
+/*   &.is-active { */
+/*     background-color: #222222; */
+/*   }  */
+/* } */
+
+.active {
+  animation-duration: 4s;
+  animation-name: slidein2;
+  font-size: 300%;
+/*   font-style: italic; */
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* @keyframes slidein  */
+/* { */
+/*   from { */
+/*     margin-left: 100%; */
+/*     width: 300%;  */
+/*   } */
+
+/*   to { */
+/*     margin-left: 0%; */
+/*     width: 100%; */
+/*   } */
+/* } */
+
+.active2 {
+  animation-duration: 1s;
+  animation-name: slidein2;
+}
+
+h2
+{
+	font-size: 200%;
+}
+
+@keyframes slidein2 
+{
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
