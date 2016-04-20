@@ -21,7 +21,7 @@ floatVideo {
   .carousel-inner > .item > a > img {
       top: 0;
       left: 0;
-      width: auto;
+      width: 100%;
       height:auto;
       min-height:500px;
       max-height:500px;
@@ -34,7 +34,7 @@ floatVideo {
  
  
  section {
-    font-family: 'themify';
+    font-family: "Bebas Neue", Arial;
     font-weight: 300;
 }
  
@@ -67,7 +67,7 @@ floatVideo {
 
 .wrap {
   text-align: center;
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue", Arial;
   font-size: large;
   border:5px solid white;
   margin: auto;
@@ -95,7 +95,7 @@ floatVideo {
 /*   }  */
 /* } */
 
-.active {
+.transition {
   animation-duration: 4s;
   animation-name: slidein2;
   font-size: 300%;
@@ -145,3 +145,4 @@ h2
     width: 100%;
   }
 }
+
